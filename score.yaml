@@ -24,3 +24,6 @@ run:
   rever:
     default:
       conda: rever
+  pytest:
+    default:
+      conda: pytest==3.10.1
