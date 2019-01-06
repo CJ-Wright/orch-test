@@ -5,7 +5,7 @@ build:
       conda: pip
   python:
     default:
-      conda: python
+      conda: python=$TRAVIS_PYTHON_VERSION
 run:
   yaml:
     default:
