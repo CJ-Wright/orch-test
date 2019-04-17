@@ -10,14 +10,14 @@ run:
   yaml:
     default:
       conda: pyyaml
-    bleeding:
-      pip: 'git+https://github.com/yaml/pyyaml.git#egg=yaml'
   xonsh:
     default:
       conda: xonsh
   xonda:
     default:
       pip: xonda
+    bleeding:
+      pip: 'git+https://github.com/gforsyth/xonda.git#egg=xonda'
   pip:
     default:
       conda: pip
